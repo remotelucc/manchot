@@ -1,2 +1,58 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
 
+:root {
+    --titulo-destaque: 'Yatra One', Arial, sans-serif;
+    --texto-principal: 'El Messiri', Arial, sans-serif;
+    --texto-padrao: Arial, Helvetica, sans-serif;
+    --cor-destaque: #FFD30F;
+    --cor-subdestaque: #564138;
+    --cor-casual: #F7EF99;
+    --cor-fundo-importante: white;
+    --cor-texto-importante: black;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: var(--cor-texto-importante);
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-family: var(--titulo-destaque);
+    color: var(--cor-fundo-importante);
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0px 0px 0px black;
+}
+
+header nav {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header > nav > a {
+    margin-right: 5px;
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-family: var(--texto-principal);
+}
+
+header > nav > a:hover {
+    color: var(--cor-texto-importante);
+    background-color: var(--cor-destaque);
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+
+main {
+    padding: 10px;
+    width: 75vw;
+    margin: auto;
+}
