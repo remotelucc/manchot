@@ -19,3 +19,45 @@ main {
     margin-top: 10px;
     border: solid 3px var(--cor-fundo-importante);
 }
+
+span#instagram a {
+    color: #9d3445;
+}
+
+span#facebook a {
+    color: blue;
+}
+
+span.icons a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+span.icons p {
+    margin: 10px;
+}
+
+span#facebook a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 7px;
+    border: solid 2px blue;
+}
+
+span#instagram a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 7px;
+    border: solid 2px #9d3445;
+}
+
+span.icons img {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    display: none;
+}
+
+span.icons:hover img {
+    display: inline-block;
+}
