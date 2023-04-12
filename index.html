@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
     <title>Jornal Manchot</title>
 </head>
 <body>
     <header>
         <h1>MANCHOT</h1>
-        <nav>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
             <a href="index.html">Home</a>
-            <a href="">Manchetes</a>
-            <a href="">Categorias</a>
+            <a href="paginas/lista.html">Manchetes</a>
+            <a href="" id="categorias">Categorias</a>
             <a href="paginas/contato.html">Contato</a>
         </nav>
     </header>
     <main>
         <article>
-            <h2>Manchete principal</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore reprehenderit incidunt laudantium nulla alias aspernatur similique voluptate ea cum rerum ducimus blanditiis in ad, eaque quod facere ab consectetur.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eaque itaque, ipsa quae aspernatur rerum adipisci perferendis corrupti pariatur magnam nesciunt maiores porro voluptatem libero beatae, eum dolores, fugiat quidem.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, quidem. Veniam sint enim nobis quidem accusantium, incidunt illum optio quos, fuga sed excepturi. Accusantium eum deleniti cum inventore eligendi? Odit.</p>
-            <img src="imagens/o-que-e-paisagem.jpg" alt="Paisagem">
+            <h2>Nas aventuras da literatura</h2>
+            <p><strong>por Luciene Cezario</strong></p>
+            <br>
+            <p>Como professora da área de linguagem devo dizer que fico preocupada com o descaso com que muitos olham para a Literatura. Quando falo literatura, refiro-me não só a de ficção, mas a qualquer texto. A leitura faz parte do nosso dia, embora, na vida prática, nem nos damos conta. Vivemos num mundo de símbolos e signos. As linguagens são múltiplas: quando estamos no trânsito e esperamos o sinal verde abrir; na escola, quando o professor propõe um problema escrito, quer da área de exatas, natureza ou biológicas, significa que será necessário saber decodificá-lo linguisticamente, reconstruí-lo no seu significado; por isso dizemos que a leitura é uma ação construtiva e não um movimento passivo, todo leitor ao interagir com o texto constrói significados. (...)</p>
+            <br>
+            <p>Este foi apenas o primeiro parágrafo! Para ler mais, clique no botão abaixo.</p>
             <br>
             <p><a href="manchetes/placeholder-main.html" target="_blank">Clique aqui para saber mais</a></p>
         </article>
@@ -35,5 +39,19 @@
             <iframe src="manchetes/placeholder3.html">Desculpe, seu navegador não tem suporte para este recurso :/</iframe>
         </section>
     </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+    <footer>
+        <p>Site desenvolvido por Lucca Mazzucatto Lino. Para mais informações, acesse a aba <a href="paginas/contato.html">Contato</a>
+        </p>
+        <p id="creditos">Créditos do favicon: <a href="https://www.flaticon.com/free-icons/international" title="international icons">International icons created by JM Graphic - Flaticon</a></p>
+    </footer>
 </body>
 </html>

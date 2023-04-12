@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-/* typical device breakpoints
+/* media queries de media
+
+typical device breakpoints
 telas pequenas - até 600px
 celular - de 600 a 768px
 tablet - de 769 a 992px
@@ -8,3 +10,20 @@ pc - de 993 a 1200px
 grandes telas - acima de 1200px
 */
 
+@media print {
+    span#burguer {
+        display: none;
+    }
+    header nav {
+        display: none;
+    }
+
+    main {
+        text-align: center;
+        margin: auto;
+    }
+    
+    main p {
+        text-align: center;
+    }
+}

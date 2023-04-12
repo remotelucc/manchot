@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
 
+/* Configuração da primeira página */
+
 :root {
     --titulo-destaque: 'Yatra One', Arial, sans-serif;
     --texto-principal: 'El Messiri', Arial, sans-serif;
@@ -11,16 +13,6 @@
     --cor-casual: #ece9118f;
     --cor-fundo-importante: white;
     --cor-texto-importante: black;
-}
-
-* {
-    font-family: var(--texto-principal);
-}
-
-main {
-    padding: 10px;
-    width: 75vw;
-    margin: auto;
 }
 
 main article {
@@ -33,9 +25,9 @@ main article {
 
 main article img {
     border: solid 2px var(--cor-subdestaque);
-    width: 60%;
+    width: 95%;
     height: 20%;
-    margin: 10px;
+    margin: 20px;
 }
 
 main > article > p {
@@ -65,12 +57,37 @@ main section {
     padding: 10px;
     border-radius: 5px;
     border: dashed 2px var(--cor-texto-importante);
+    /* sem manchetes por enquanto */
+    display: none;
 }
 
-iframe {
+main section iframe {
     width: 31%;
     height: 250px;
     margin: 10px;
     border: solid 2px var(--cor-subdestaque);
     border-radius: 10px;
+}
+
+footer {
+    display: none;
+    background-color: var(--cor-texto-importante);
+    color: var(--cor-fundo-importante);
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p#creditos {
+    font-size: 0.75em;
 }

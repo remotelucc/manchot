@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
+
+/* Configuração apenas da lista de manchetes */
+
+:root {
+    --titulo-destaque: 'Yatra One', Arial, sans-serif;
+    --texto-principal: 'El Messiri', Arial, sans-serif;
+    --texto-padrao: Arial, Helvetica, sans-serif;
+    --cor-destaque: #FFD30F;
+    --cor-subdestaque: #564138;
+    --cor-casual: #ece9118f;
+    --cor-fundo-importante: white;
+    --cor-texto-importante: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 2px var(--cor-subdestaque);
+    width: fit-content;
+}
+
+p {
+    margin: 10px;
+}
+
+li a {
+    color: var(--cor-subdestaque);
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
