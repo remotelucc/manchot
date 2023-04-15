@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        iframe#trailer {
+            width: 80%;
+            margin: 15px;
+            height: 500px;
+        }
+    </style>
+    <title>Estrelas além do tempo</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Indicação de filme: Estrelas além do tempo</h2>
+            <p id="autor">por Guilherme Teixeira Nunes</p>
+            <iframe id="trailer" src="https://www.youtube.com/embed/wx3PVtrU-Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Elenco: Taraji P. Henson, Octavia Spencer, Janelle Monáe, Kevin Costner, Kirsten Dunst, Jim Parsons.</p>
+            <p>Classificação indicativa: 10 anos</p>
+            <p>Duração: 2h9min</p>
+            <p>O filme Estrelas além do tempo, lançado em 2016 e dirigido por Theodore Melfi conta a história de três mulheres afro-americanas que trabalham na NASA (National Aeronautics and Space Administration - Administração Nacional da Aeronáutica e Espaço), no contexto de guerra fria, e que sofriam com a segregação racial (divisão de negros e brancos) neste drama biográfico as protagonistas Katherine Johnson, Dorothy Vaughan e Mary Jackson eram obrigadas a ficarem em ambientes diferentes dos ambientes “destinados para brancos”, mas por serem especialistas em matemática elas são extremamente importantes para o projeto dos Estados Unidos de lançar o homem em órbita, baseado em histórias reais o filme tem uma boa ambientação, e consegue retratar como era a realidade de um negro nos Estados Unidos nos anos de 1960</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

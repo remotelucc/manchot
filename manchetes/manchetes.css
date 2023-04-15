@@ -9,7 +9,7 @@ main {
 }
 
 main article {
-    background-color: var(--cor-texto-importante);
+    background-color: var(--cor-fundo-importante);
     padding: 10px;
     border: solid 3px var(--cor-subdestaque);
     border-radius: 10px;
@@ -17,7 +17,7 @@ main article {
 }
 
 main > article > p {
-    color: var(--cor-fundo-importante);
+    color: var(--cor-texto-importante);
 }
 
 main article a {
@@ -35,4 +35,8 @@ main article a:hover {
 main article h2 {
     font-size: 2em;
     color: var(--cor-destaque);
+}
+
+p#autor {
+    font-weight: bold;
 }

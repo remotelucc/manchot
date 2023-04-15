@@ -16,7 +16,8 @@
 }
 
 main article {
-    background-color: var(--cor-texto-importante);
+    /* background-color: rgba(43, 43, 43, 0.804); */
+    background-color: var(--cor-fundo-importante);
     padding: 10px;
     border: solid 3px var(--cor-subdestaque);
     border-radius: 10px;
@@ -31,12 +32,12 @@ main article img {
 }
 
 main > article > p {
-    color: var(--cor-fundo-importante);
+    color: var(--cor-texto-importante);
 }
 
 main article a {
-    color: yellow;
-    border: solid 2px yellow;
+    color: rgb(155, 155, 0);
+    border: solid 2px rgb(155, 155, 0);
     border-radius: 10px;
     padding: 5px;
     text-decoration: none;
@@ -49,45 +50,4 @@ main article a:hover {
 main article h2 {
     font-size: 2em;
     color: var(--cor-destaque);
-}
-
-main section {
-    background-color: var(--cor-casual);
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: dashed 2px var(--cor-texto-importante);
-    /* sem manchetes por enquanto */
-    display: none;
-}
-
-main section iframe {
-    width: 31%;
-    height: 250px;
-    margin: 10px;
-    border: solid 2px var(--cor-subdestaque);
-    border-radius: 10px;
-}
-
-footer {
-    display: none;
-    background-color: var(--cor-texto-importante);
-    color: var(--cor-fundo-importante);
-}
-
-footer p {
-    text-align: center;
-}
-
-footer a {
-    color: var(--cor-destaque);
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-footer p#creditos {
-    font-size: 0.75em;
 }

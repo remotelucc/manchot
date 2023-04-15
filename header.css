@@ -115,10 +115,6 @@ header > nav > a:hover {
     transition-duration: 1s;
 }
 
-header > nav > a#categorias {
-    display: none;
-}
-
 h1, h2 {
     font-family: var(--titulo-destaque);
 }
