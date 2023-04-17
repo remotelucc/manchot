@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="manchetes.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+
+        div#opiniao {
+            background-color: lightgray;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+    <title>Anne With An E</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Resenha sobre a série Anne With An E</h2>
+            <p id="autor">por João Carlos Ivers</p>
+            <br>
+            <h3>Informações importantes:</h3>
+            <p>Lançada em 2019, tem a classificação etária para maiores de 12 anos.</p>
+            <p>Possui 3 temporadas, a primeira tendo 7 episódios, a segunda 10 episódios e a terceira 10 episódios.</p>
+            <br>
+            <h3>Elenco: </h3>
+            <p> Amybeth McNulty; <br> <span>Geraldine James;</span> <br> <span>R.H. Thomson;</span> <br> <span>Corrine Koslo;</span> <br><span> Dalila Bela;</span> <br> <span>Lucas Jade Zumann</span>; <br> <span>Aymeric Jett Montaz;</span> <br> <span>Dalmar Abuzeid;</span> <br> <span>Cory Gruter-Andrew;</span> <br> <span>Joanna Douglas;</span> <br></p>
+            <div id="opiniao">
+                <h3>Resenha:</h3>
+                <p>Essa série se trata de Anne, uma menina órfã super criticada por ser diferente do estereótipo de crianças órfãs. Logo no início da série o espectador se apaixona pela doçura e pelas atitudes exemplares de menina-mulher. Essa temática ligada ao amadurecimento acaba emocionando bastante o público, pois impacta cada um de nós de forma única. A imaginação de Anne vai muito além da realidade e de simples visões juvenis. A série em geral, visita lugares sentimentais introspectivos e nos ensina a alcançar sonhos e superar os medos.</p>
+            </div>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
