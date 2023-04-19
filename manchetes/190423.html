@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto itin. Ciências Humanas</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        picture img {
+            border-radius: 10px;
+            border: solid 2px darkslategray;
+            width: 30%;
+            margin: 20px;
+        }
+
+        picture p {
+            text-indent: 22%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Projeto pedagógico - itinerário de Ciências Humanas</h2>
+            <p id="autor">por Angela Feitosa</p>
+            <br>
+            <p>Diante do eixo central do itinerário de ciências humanas, formando cidadãos, surgiu a ideia do projeto - <strong>Quem somos?</strong>. Um tema que visa resgatar os valores antropológicos da miscigenação do nosso país e suas implicações, tendo em vista as matrizes étnicas (indígena, africana e europeia) que formam nossas raízes.</p>
+            <p>O projeto ainda está na fase das pesquisas e relatórios, mas os resultados já denotam a relevância do assunto, pois as descobertas sobre as contribuições, dores, anseios, e inquietações, enriquecem não só o conhecimento mas desperta um olhar empático e mais consciente com relação a si e ao outro.</p>
+            <p>A etapa de conclusão acompanhará as datas comemorativas referentes a cada matriz étnica, como o dia dos povos indígenas, a Lei Áurea e o dia do imigrante, com exposições interativas e sensoriais envolvendo, principalmente, o Ensino Fundamental I. A ideia é que em cada data comemorativa, uma exposição diferente ressalte os valores e contribuições de cada grupo. Muitas novidades nos aguardam. Estamos ansiosos pelo resultado desse empolgante trabalho.</p>
+            <picture>
+                <img src="../imagens/alunos190423.jpeg">
+                <img src="../imagens/alunos190423_2.jpeg">
+                <br>
+                <p>Alunos trabalhando no projeto "Quem somos?"</p>
+            </picture>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
