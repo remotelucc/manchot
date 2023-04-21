@@ -26,8 +26,7 @@ main article {
 
 main article img {
     border: solid 2px var(--cor-subdestaque);
-    width: 95%;
-    height: 20%;
+    width: 40%;
     margin: 20px;
 }
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        main article img {
+        border: solid 2px darkslategray;
+        width: 35%;
+        margin: 20px 0px 20px 10px;
+            }
+    </style>
+    <title>Como surgiu o Manchot?</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Tudo tem uma história</h2>
+            <p id="autor">por Luciene Cristina Cezario Hernandes</p>
+            <img src="../imagens/manchot_introducao.jpg" alt="Logo do Manchot">
+            <p>Caros leitores, nessa primeira edição, pensamos em colocá-los a par da história e objetivos do nosso jornal, por isso não desistam de ler. </p>
+            <p>Em primeiro lugar, gostaria de ressaltar que a linha que nos guia é a alegria intensa de fazer o nosso melhor, sabemos que não somos profissionais da área jornalística e, esse talvez seja o nosso diferencial. Os assuntos das matérias são de livre escolha da nossa equipe de estudantes/protagonistas, o que traz bons resultados; atualidades, motivação e entusiasmo ao provocar debates frutuosos.</p>
+            <p>O jornal é um trabalho interdisciplinar. O professor Flávio Bertasso em 2019, lançou a ideia de criar um grupo de alunos que seriam responsáveis por ajudar nas atividades educacionais, esportivas e sociais, surgindo assim o Grupo de Apoio Escolar “Einstein Pinguins”. Com a pandemia, o projeto ficou no forno.  O fermento fez crescer a massa e com isso um grupo de professores responsáveis, com objetivos comuns e das diversas áreas do conhecimento foram convidados a participar desse projeto, e assim surgiu o nosso jornal.</p>
+            <p>O Manchot nasceu no ano passado, 2022, como projeto-piloto de jornal digital, de acesso restrito ao público da nossa escola, sob a minha orientação e coordenação,  e de responsabilidade dos alunos, do 1° e 2° ano, do Ensino Médio. A estruturação desta nova fase de nossa publicação conta com a produção de um site que abriga um jornal aberto ao público geral, além de outras redes sociais.</p>
+            <p>
+            O nome, Manchot, foi escolhido por manter uma associação bastante interessante:  tem sua raiz no francês (a França sempre foi reconhecida por ser um marco cultural e até hoje, ainda é o país com mais Prêmios Nobel da Literatura), sua escrita e sonoridade são bem parecidas à manchete (do francês “manchette”, refere-se aos títulos em letras grandes, na primeira página dos jornais) e por fim a tradução, Pinguins (essas aves são bem diferentes das outras, não voam, são ótimos nadadores, mas andam bem devagarinho, seu corpo tem grande quantidade de gordura e são solidários, pois constroem seus ninhos, em colônias com centenas de indivíduos, muito próximos uns dos outros para oferecer maior proteção).
+            <br>
+            <strong>Convidamos a todos os leitores para conferirem nas próximas páginas o resumo das nossas contribuições.</strong></p> 
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

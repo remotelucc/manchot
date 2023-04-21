@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        main article img {
+            border: solid 2px darkslategray;
+            border-radius: 5px 0px 0px 5px;
+            margin: 10px 0px 0px 15px;
+        }
+
+        @media screen and (min-width: 991px) {
+            main article img {
+            width: 50%;}
+        }
+
+        @media screen and (max-width: 990px) {
+            main article img {
+            width: 95%;}
+        }
+    </style>
+    <title>Diferentes cores</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Diferentes cores</h2>
+            <p id="autor">por Júlia Eduarda e Gabriela Minatell</p>
+            <br>
+            <p>As cores, são importantes em diversos aspectos como por exemplo para pintar e desenhar,
+            elas foram criadas para dar brilho e alegria a momentos. A mesma é tão perfeita, que nós
+            seres humanos temos cores mas não é o típico branco, preto, pardo e amarelo, nós estamos
+            cores de pele como marrom bombom, tem pessoas que tem cor de chocolate, existem
+            aquelas também, que quando envergonhadas ficam com uma cor rosada parecendo um
+            morango. E para demonstrar com cores e desenhos se tem um livro chamado “Lápis de cor de
+            Pele” da autora Sueli Ferreira de Oliveira. O livro foi criado com um objetivo de ensinar, para
+            as crianças menores de que não existe só aquela cor de pele que tanto se ouve que é o famoso
+            salmão, que nós por meio de um padrão popular colocamos em um lápis de cor um
+            estereótipo racial, onde o cor de pele que muitos conhecem é um rosa claro que se caracteriza
+            por ser a cor utilizada para pintar pessoas de cor de pele branca. O principal ensinamento por
+            trás do livro é deixar uma reflexão, para pais e mães que acabam criando seus filhos baseando-se nesse estereótipo de que o lápis de cor é só o rosa claro, e um ensinamento para as
+            crianças de que a nossa pele, a pele humana ela pode ter diversas cores desde o café com
+            leite, até a cor de chocolate, cor de mel ou até mesmo a cor daquele chocolate meio amargo
+            que ele é tão escuro que ele brilha.</p>
+            <img src="../imagens/lapiscordepele.png" alt="Capa do livro Lápis Cor de Pele">
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
