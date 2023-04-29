@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        main article img {
+            border: solid 2px darkslategray;
+            border-radius: 5px 0px 0px 5px;
+            margin: 10px 0px 0px 15px;
+        }
+
+        @media screen and (min-width: 991px) {
+            main article img {
+            width: 30%;}
+            img.horizontal {
+            width: 46%;}
+        }
+
+        @media screen and (max-width: 990px) {
+            main article img {
+            width: 45%;}
+        }
+    </style>
+    <title>Alice no campo dos girassóis</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Projeto: Alice no campo dos girassóis</h2>
+            <p id="autor">Idealização: Glauco Silva e Angela Cristina </p>
+            <br>
+            <p>Objetivo: relacionar Van Gogh e Alice no país das maravilhas de forma reflexiva sobre
+            conflitos da humanidade e intrapessoais.</p>
+            <img src="../imagens/alicevangogh_8.jpeg" class="horizontal">
+            <img src="../imagens/alicevangogh_9.jpeg" class="horizontal">
+            <br>
+            <img src="../imagens/alicevangogh.jpeg">
+            <img src="../imagens/alicevangogh_2.jpeg">
+            <img src="../imagens/alicevangogh_3.jpeg">
+            <img src="../imagens/alicevangogh_4.jpeg">
+            <img src="../imagens/alicevangogh_5.jpeg">
+            <img src="../imagens/alicevangogh_6.jpeg">
+            <img src="../imagens/alicevangogh_7.jpeg">
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
