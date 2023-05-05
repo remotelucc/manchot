@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <title>Stop Motion - Itin. Linguagens</title>
+    <style>
+        ul li {
+            margin-left: 20px;
+        }
+
+        section img {
+            width: 31%;
+            margin: 10px;
+        }
+
+        section video.maior {
+            width: 46%;
+            margin: 20px;
+        }
+
+        section video.menor {
+            width: 31%;
+            margin: 10px;
+        }
+
+        hr {
+            padding: 10px;
+            margin: 10px;
+            border: solid 5px orange;
+            background-image: linear-gradient(to right, yellow, orange);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Stop Motion - Itinerário de Literatura e Gramática </h2>
+            <ul>
+                <li>Alunos do 1° e 2° ano do Ensino médio.</li>
+                <li><strong>Professoras: Luciene Cezario e Juliana Belchior.</strong></li>
+            </ul>
+            <p>Esse trabalho foi realizado com a intenção de buscar melhor a compreensão, interpretação e
+            produção de trabalhos artísticos dentro da arte, música e artes visuais.
+            Durante a elaboração, os alunos desenvolvem a escrita, pois precisaram elaborar um roteiro e
+            colocam suas ideias de modo mais organizado, de forma clara e coerente.
+            Foram incentivados a construir narrativas que envolvessem o público do início ao fim.
+            A cada aula podemos ver e acompanhar o aprimoramento de cada cena, levando cada grupo
+            ao incentivo de criações de personagens e cenários.
+            O Stop Motion colabora com a comunicação e o trabalho em equipe, tomando todas as
+            decisões em grupo.</p>
+            <p>Seguem as imagens da produção dos filmes e depois, dois filmes selecionados pelas professoras Juliana e Luciene:</p>
+            <section>
+                <img src="../imagens/stopmotion2.jpeg">
+                <img src="../imagens/stopmotion3.jpeg">
+                <video class="menor" src="../videos/bonecoarticulado.mp4" controls></video>
+                <hr>
+                <video class="maior" src="../videos/grupovitoria.mkv" controls></video>
+                <video class="maior" src="../videos/grupolucca.mp4" controls></video>
+            </section>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
