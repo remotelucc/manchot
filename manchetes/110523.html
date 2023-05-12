@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        @media screen and (min-width: 991px) {
+            section img {
+            width: 31%;
+            margin: 10px;
+        }
+
+        div.ganhadores img {
+            width: 60%;
+            border: solid 2px darkslategray;
+            margin: 10px;}}
+
+        @media screen and (max-width: 990px) {
+            section img {
+            width: 43%;
+            margin: 10px;}
+            
+            div.ganhadores img {
+            width: 90%;
+            border: 2px solid darkslategray;
+            margin: 10px;}}
+
+        hr {
+            padding: 10px;
+            margin: 10px;
+            border: solid 5px orange;
+            background-image: linear-gradient(to right, yellow, orange);
+        }
+        
+        div.ganhadores p {
+           font-size: 1.3em;
+        }
+        
+        div.ganhadores h3 {
+            font-size: 1.4em;
+            color: yellow;
+            text-shadow: -3px 1px 3px red;
+            text-indent: 10px;
+        }
+    </style>
+    <title>Torre de Macarrão - 2023</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Semana da Engenharia Civil</h2>
+            <h3>Desafio: Torre de Macarrão</h3>
+<p>Um convite, é tudo para que nossos jovens Pinguins precisam para mostrar os seus talentos. E não foi diferente desta vez.</p>
+<p>Semana da Engenharia Civil - 2023, o professor Victor Baldan idealizou uma atividade de integração entre faculdade e ensino médio e nos convidou, e é claro que aceitamos o desafio, que era a construção de uma Torre de Macarrão que deve ser capaz de sustentar um Marshmallow no topo.</p>
+<p>A atividade em si não é novidade para nós, a professora Cláudia já desenvolve com os alunos desde o Ensino Fundamental nas aulas de laboratório de Ciências, além de ser um desafio no dia da Gincana Nerd.</p>
+<p>Mas, participar de um evento com os alunos da faculdade é uma situação diferente, um desafio para mostrar nosso trabalho na frente de todos contra estudantes de um curso de engenharia, mesmo sabendo que não era uma competição direta.</p>
+<p>Envolvemos alunos do 1° ao 3° ano do ensino médio, formando um total de 7 equipes com até 4 alunos. Os materiais para a construção são de fácil aquisição : 20 espaguetes, 1 metro de barbante, 1 metro de fita adesiva e um marshmallow. O tempo de construção foi de 35 minutos, logo após o marshmallow é colocado no topo e a torre deve ficar em pé por 15 minutos, qualquer queda e a equipe está desclassificada.
+    <br> Abaixo temos algumas fotos das nossas equipes com suas construções:</p>
+    <section>
+        <img src="../imagens/macarrao1.jpg" alt="">
+        <img src="../imagens/macarrao2.jpg" alt="">
+        <img src="../imagens/macarrao3.jpg" alt="">
+        <img src="../imagens/macarrao4.jpg" alt="">
+        <img src="../imagens/macarrao5.jpeg" alt="">
+        <img src="../imagens/macarrao6.jpg" alt="">
+        <hr>
+        <div class="ganhadores">
+            <h3>A grande final</h3>
+            <p>"100% de mim não é 1% do time inteiro"</p>
+            <p>- <em>Eliud Kipchoge</em></p>
+            <img src="../imagens/macarrao7.jpeg" alt="">
+            <p>Nosso 3° colocado: João Carlos, Matheus, Letícia e Eduardo do 2° ano do EM</p>
+            <img src="../imagens/macarrao8.jpeg" alt="">
+            <p>Nosso 2° colocado: Felipe (representado pelo Prof. Flávio), Breno e Saulo do 3° ano do EM</p>
+            <img src="../imagens/macarrao9.jpeg" alt="">
+            <p>Apresento nosso primeiro colocado, com seus 81cm, a MAIOR de todas as torres!</p>
+                <p><strong>Por: Pedro, Enzo, Felipe e Guilherme do 2° ano do EM.</strong></p>
+                <br>
+        </div>
+        <p>Agradecemos ao prof. Victor pelo convite e já estamos ansiosos para as atividades do 2° semestre
+                na construção da ponte de palito.
+            </p>
+            <br>
+            <p id="autor">Escrito por: Professor Flávio Bertasso</p>
+            <p>Reescrita: Maria Eduarda Martins Furlanetti - 2° ano do EM</p>
+    </section>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

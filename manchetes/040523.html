@@ -15,7 +15,8 @@
             margin-left: 20px;
         }
 
-        section img {
+        @media screen and (min-width: 991px) {
+            section img {
             width: 31%;
             margin: 10px;
         }
@@ -28,6 +29,24 @@
         section video.menor {
             width: 31%;
             margin: 10px;
+        }
+        }
+
+        @media screen and (max-width: 990px) {
+            section img {
+            width: 43%;
+            margin: 10px;
+        }
+
+        section video.maior {
+            width: 90%;
+            margin: 20px;
+        }
+
+        section video.menor {
+            width: 60%;
+            margin: 10px auto;
+        }  
         }
 
         hr {
