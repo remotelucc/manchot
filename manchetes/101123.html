@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Premiação OBA</title>
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        @media screen and (min-width: 991px) {
+            section img {
+            width: 31%;
+            margin: 10px;
+        }
+    
+            section img.maior {
+            height: 350px;
+        }}
+
+        @media screen and (max-width: 990px) {
+            section img {
+            width: 91%;
+            margin: 10px;}}
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Manchetes</a>
+            <a href="../paginas/categorias.html">Categorias</a>
+            <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Premiação OBA/MOBFOG</h2>
+            <p id="autor">por Letícia Ivers</p>
+            <br>
+            <p>Hoje, dia 10 de novembro de 2023, foi realizada a premiação da prova da Olimpíada Brasileira de Astronomia (OBA), a Mostra Brasileira de Foguetes (MOBFOG) com os alunos da Organização Einstein de Ensino coordenados pelo professor Flávio Borges Bertasso para a realização das provas </p>
+            <br>
+            <p>• O aluno Pedro Galvani Bertasso do segundo ano do ensino médio, recebeu a medalha de bronze por ter atingido a nota desejada.🥉</p>
+            <section>
+                <img src="../imagens/oba1.jpeg" alt="Pedro Bertasso e sua medalha">
+                <img src="../imagens/oba2.jpeg" alt="Todos os participantes" class="maior">
+                <img src="../imagens/oba3.jpeg" alt="Professor Flávio">
+            </section>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
