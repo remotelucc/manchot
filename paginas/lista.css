@@ -8,7 +8,7 @@
     --titulo-destaque: 'Yatra One', Arial, sans-serif;
     --texto-principal: 'El Messiri', Arial, sans-serif;
     --texto-padrao: Arial, Helvetica, sans-serif;
-    --cor-destaque: #FFD30F;
+    --cor-destaque: #edc410;
     --cor-subdestaque: #564138;
     --cor-casual: #ece9118f;
     --cor-fundo-importante: white;
@@ -23,7 +23,7 @@ ul li {
     margin: 15px;
     padding: 15px;
     border-radius: 10px;
-    border: solid 2px var(--cor-subdestaque);
+    border: solid 2px var(--cor-destaque);
     width: fit-content;
 }
 
@@ -31,8 +31,8 @@ p {
     margin: 10px;
 }
 
-li a {
-    color: var(--cor-subdestaque);
+li, li a {
+    color: var(--cor-texto-importante);
     text-decoration: none;
 }
 
