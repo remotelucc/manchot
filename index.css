@@ -15,25 +15,38 @@
     --cor-texto-importante: black;
 }
 
-main article {
-    /* background-color: rgba(43, 43, 43, 0.804); */
-    padding: 10px;
-    border: dashed 5px black;
-    padding-bottom: 20px;
-    width: 60%;
+main#index {
+    width: 70vw;
+    margin-left: 100px;
 }
 
-main article img {
+@media screen and (max-width: 990px) {
+    main {
+        margin: 0px;
+        width: 98vw;
+    }
+    main div {
+        margin: 0px;
+    }
+}
+
+main div.principal {
+    /* background-color: rgba(43, 43, 43, 0.804); */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+main div.principal img {
     border: solid 2px var(--cor-subdestaque);
     width: 40%;
     margin: 20px;
 }
 
-main > article > p {
+main > div.principal > p {
     color: var(--cor-texto-importante);
 }
 
-main article a {
+main div.principal a {
     color: var(--cor-texto-importante);
     border: solid 2px var(--cor-texto-importante);
     border-radius: 10px;
@@ -41,11 +54,36 @@ main article a {
     text-decoration: none;
 }
 
-main article a:hover {
+main div.principal a:hover {
     text-decoration: underline;
 }
 
-main article h2 {
+main div.principal h2 {
     font-size: 2em;
     color: var(--cor-destaque);
+}
+
+main div.mini, main div.segunda {
+    display: inline-block;
+}
+
+main div.segunda {
+    margin: 20px;
+    padding: 5px;
+    max-width: 38%;
+}
+
+main div.segunda p {
+    text-indent: 0px;
+}
+
+p.tema {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+main div.mini {
+    margin: 15px;
+    padding: 5px;
+    max-width: 18%;
 }
