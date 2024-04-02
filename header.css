@@ -57,16 +57,15 @@
 }
 
 span#burguer {
-    background-color: var(--cor-texto-importante);
-    color: var(--cor-destaque);
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo-importante);
     text-align: center;
     padding: 10px;
     margin-bottom: 15px;
 }
 
 span#burguer:hover {
-    cursor: pointer;
-    background-color: var(--cor-destaque);
+    cursor: pointer;;
     color: var(--cor-texto-importante);
 }
 

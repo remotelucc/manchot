@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+    </style>
+    <title>O Projeto Tamar</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+                <a href="../paginas/lista.html">Últimas</a>
+                <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+                <a href="../paginas/opiniao.html">Opinião</a>
+                <a href="../paginas/cultura.html">Cultura</a>
+                <a href="../paginas/esportes.html">Esportes</a>
+                <a href="../paginas/atualidades.html">Atualidades</a>
+                <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>O que é o Projeto Tamar?</h2>
+            <p id="autor"> por Ana Flávia Antunes</p>
+            <br>
+            <picture>
+                <img src="../imagens/projetotamar.jpg" alt="Menina vendo tartaruga na base do Projeto Tamar em Ubatuba">
+                <legend>Imagem retirada do <a href="https://www.tamar.org.br/centros_visitantes.php?cod=9">site oficial do Projeto Tamar</a></legend>
+            </picture>
+            <hr>
+            <p>Quando penso na escolha do curso a seguir na graduação, um sempre me vem à mente. A engenharia marinha é um campo fascinante que combina conhecimentos de engenharia com a vastidão e complexidade dos oceanos. A exploração do fundo do mar, com toda a sua biodiversidade e mistérios, é uma fonte inesgotável de inspiração para aqueles interessados nesse campo. Projetos como o Tamar, que se dedicam à preservação das tartarugas marinhas e de seus habitats, são exemplos notáveis de como a engenharia pode ser aplicada para proteger e conservar a vida marinha, contribuindo para a sustentabilidade dos ecossistemas oceânicos.</p>
+            <p>
+            O Projeto Tamar em Ubatuba, fundado em 1991, localizado na Praia do Prumirim, tornou-se referência em conservação marinha, acolhendo milhares de visitantes e inspirando a comunidade local.
+            Ao longo de sua história, o Tamar Ubatuba já reabilitou e soltou mais de 1.500 tartarugas marinhas, contribuindo para a recuperação das populações ameaçadas. As cinco espécies de tartarugas marinhas que ocorrem no Brasil (tartaruga-cabeçuda, tartaruga-de-pente, tartaruga-de-couro, tartaruga-verde e tartaruga-oliva) são protegidas pelo projeto.
+            </p>
+            <p>O Tamar Ubatuba desenvolve ações de educação ambiental e sensibilização junto à comunidade pesqueira local, promovendo a pesca artesanal sustentável e a redução da captura acidental de tartarugas. Além disso, o projeto incentiva o turismo responsável e a valorização dos recursos naturais de Ubatuba.</p>
+            <br>
+            <p>Para mais informações, ligue para o telefone do projeto: <strong>(12) 3832-6202 / 7014 / 4046</strong>; ou acesse o site, <a href="https://www.tamar.org.br/">https://www.tamar.org.br</a></p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

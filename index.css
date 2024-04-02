@@ -37,8 +37,7 @@ main div.principal {
 }
 
 main div.principal img {
-    border: solid 2px var(--cor-subdestaque);
-    width: 40%;
+    max-width: 65%;
     margin: 20px;
 }
 
@@ -46,16 +45,10 @@ main > div.principal > p {
     color: var(--cor-texto-importante);
 }
 
-main div.principal a {
+main a {
     color: var(--cor-texto-importante);
-    border: solid 2px var(--cor-texto-importante);
-    border-radius: 10px;
     padding: 5px;
     text-decoration: none;
-}
-
-main div.principal a:hover {
-    text-decoration: underline;
 }
 
 main div.principal h2 {
@@ -70,7 +63,11 @@ main div.mini, main div.segunda {
 main div.segunda {
     margin: 20px;
     padding: 5px;
-    max-width: 38%;
+    max-width: 32%;
+}
+
+main div.segunda img {
+    max-width: 99.5%;
 }
 
 main div.segunda p {
@@ -85,5 +82,5 @@ p.tema {
 main div.mini {
     margin: 15px;
     padding: 5px;
-    max-width: 18%;
+    max-width: 15%;
 }

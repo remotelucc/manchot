@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        main article h2 {
+                    font-size: 1.8em;
+                }
+        main article img {
+                    width: 65%;
+                }
+    </style>
+    <title>O jogo Xadrez</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Xadrez: O jogo milenar que desperta estratégias e paixões</h2>
+        <p id="autor">por Larissa Ragazzo</p>
+        <br>
+        <picture>
+            <img src="../imagens/xadrez.jpg" alt="Peças de xadrez">
+            <legend>Imagem retirada de <a href="https://pt.vecteezy.com/foto/1759015-pecas-de-xadrez-de-ouro-e-prata">Vecteezy</a></legend>
+        </picture>
+        <hr>
+        <p>
+            Há séculos, o xadrez tem cativado mentes e inspirado estrategistas em todo o mundo. Originado na Índia por volta do século VI, este jogo de tabuleiro desafiador atravessou fronteiras e culturas, tornando-se um símbolo de astúcia e inteligência.
+            A história do xadrez remonta a tempos imemoriais, com suas raízes entrelaçadas nas tradições e narrativas de diferentes civilizações.
+        </p> 
+        <p>Originou-se do jogo indiano chamado "chaturanga", que gradualmente se transformou no xadrez que conhecemos hoje. Desde então, o xadrez tem sido um campo de batalha intelectual, onde as mentes brilhantes competem para desvendar estratégias e táticas complexas.</p>
+        <p>No xadrez, cada movimento importa. Cada peça tem seu papel específico, e cada jogador deve equilibrar agressão e defesa, calculando as possíveis consequências de cada jogada. Isso exige não apenas habilidade mental aguçada, mas também paciência e concentração. O xadrez é um jogo de pura estratégia, onde a antecipação do adversário e a capacidade de visualizar várias jogadas à frente são essenciais para o sucesso.</p>
+        <p>Apesar do surgimento de jogos eletrônicos e outras formas de entretenimento, o xadrez continua a ser uma paixão para milhões em todo o mundo. Torneios locais, nacionais e internacionais atraem jogadores de todas as idades e origens, unindo pessoas através de uma linguagem universal: o tabuleiro de xadrez. Com o advento da tecnologia, o xadrez encontrou novos espaços para florescer. Plataformas online permitem que jogadores de todos os cantos do globo compitam instantaneamente, enquanto análises de computador oferecem insights valiosos sobre jogadas e estratégias. No entanto, nada pode substituir a emoção e a camaradagem de um torneio presencial, onde as peças são movidas com o toque humano e a tensão no ar é palpável.</p>
+        <p>O xadrez é mais do que um simples jogo; é um campo de batalha para a mente, onde estratégias são forjadas e habilidades são testadas. Ao longo dos séculos, ele resistiu ao teste do tempo, permanecendo como um símbolo de inteligência e sagacidade. Enquanto houver tabuleiros de xadrez sendo montados e peças sendo movidas, o fascínio por este jogo milenar continuará a prosperar, alimentando a mente e o espírito daqueles que se aventuram em suas intricadas profundezas.</p>
+        <p>Inclusive na Escola Einstein, o xadrez está se tornando mais do que apenas um jogo - está se transformando em uma ferramenta educacional poderosa. A escola começou a oferecer aulas de xadrez à tarde, como parte de seu currículo extracurricular, reconhecendo os benefícios cognitivos e de habilidades de resolução de problemas que o jogo oferece aos alunos. Essas aulas não apenas aprimoram as habilidades dos alunos no jogo, mas também promovem o pensamento crítico, a concentração e a paciência - habilidades essenciais para o sucesso acadêmico e além. Elas ocorrem das <strong>14:30 às 15:30 nas sextas-feiras alternadas</strong>, para mais informações <strong>entrar em contato com a direção</strong>.</p>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

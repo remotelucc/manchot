@@ -9,11 +9,30 @@ main {
 }
 
 main article {
+    width: 65vw;
     background-color: var(--cor-fundo-importante);
     padding: 10px;
-    border: solid 3px var(--cor-subdestaque);
-    border-radius: 10px;
     padding-bottom: 20px;
+    margin: auto;
+}
+
+picture {
+    margin: auto;
+    text-align: center;
+}
+
+picture img {
+    display: block;
+    margin: auto;
+}
+
+picture legend {
+    font-size: 0.8em;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 main > article > p {
@@ -21,10 +40,7 @@ main > article > p {
 }
 
 main article a {
-    color: yellow;
-    border: solid 2px yellow;
-    border-radius: 10px;
-    padding: 5px;
+    color: var(--cor-texto-importante);
     text-decoration: none;
 }
 
@@ -35,8 +51,17 @@ main article a:hover {
 main article h2 {
     font-size: 2em;
     color: var(--cor-destaque);
+    margin: auto;
+    text-align: center;
 }
 
 p#autor {
     font-weight: bold;
+    margin: auto;
+    text-align: center;
+    text-indent: -10px;
+}
+
+picture legend a {
+    text-decoration: underline;
 }

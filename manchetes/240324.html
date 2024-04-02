@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <style>
+        main article h2 {
+            font-size: 1.7em;
+        }
+        main article img {
+            width: 65%;
+        }
+    </style>
+    <title>A proibição do celular</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">MANCHOT</a></h1>
+        <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+        <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <a href="../index.html">Home</a>
+                <a href="../paginas/lista.html">Últimas</a>
+                <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+                <a href="../paginas/opiniao.html">Opinião</a>
+                <a href="../paginas/cultura.html">Cultura</a>
+                <a href="../paginas/esportes.html">Esportes</a>
+                <a href="../paginas/atualidades.html">Atualidades</a>
+                <a href="../paginas/contato.html">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Proibição do uso de celular na escola: Impactos e consequências</h2>
+            <p id="autor">por Julia Bento Baptistela Alves</p>
+            <br>
+            <picture>
+                <img src="../imagens/proibicaocelular.jpg" alt="Suporte para alunos colocarem os celulares desligados em sala da Escola da Vila, em São Paulo">
+                <legend>Imagem retirada da <a href="https://www1.folha.uol.com.br/educacao/2024/02/escolas-fecham-o-cerco-a-uso-do-celular-e-aumentam-proibicao-na-volta-as-aulas.shtml">Folha de S. Paulo</a></legend>
+            </picture>
+            <hr>
+            <p>Nos últimos meses, uma decisão polêmica foi tomada por diversas escolas em todo o país: a proibição do uso de celulares durante o período escolar. Essa medida, que visa reduzir distrações e melhorar o foco dos alunos, tem gerado debates intensos sobre seus impactos e consequências.</p>
+            <p>De acordo com os defensores da proibição, o uso constante de celulares em sala de aula tem prejudicado o aprendizado dos estudantes, interferindo na concentração, no desenvolvimento de habilidades sociais e até mesmo na saúde mental. Além disso, a presença dos dispositivos móveis durante as aulas pode facilitar a disseminação de conteúdo inadequado ou prejudicial entre os alunos.</p>
+            <p>No entanto, críticos argumentam que a proibição do uso de celulares pode ser uma medida excessiva, impedindo o acesso a recursos educacionais digitais úteis. Além disso, alguns especialistas alertam para o fato de que proibir os celulares na escola pode não resolver o problema central, que é o uso inadequado desses dispositivos.</p>
+            <p>As consequências dessa proibição já estão sendo observadas em diversas escolas. Por um lado, alguns alunos relatam uma maior capacidade de concentração e participação nas aulas, resultando em um possível aumento no desempenho acadêmico. Por outro lado, há relatos de resistência por parte dos estudantes, que veem a medida como uma restrição injusta de seu espaço e autonomia.</p>
+            <p>Além disso, a proibição do uso de celulares na escola também levanta questões sobre a responsabilidade dos pais e da escola na educação digital dos jovens. Muitos especialistas argumentam que é essencial promover o uso consciente e responsável da tecnologia, em vez de simplesmente proibi-la.</p>
+            <p>Diante desse cenário, fica evidente que a proibição do uso de celulares na escola é um tema complexo, que envolve não apenas questões educacionais, mas também sociais e culturais. A busca por um equilíbrio entre o uso adequado da tecnologia e a promoção de um ambiente de aprendizado saudável continua sendo um desafio para educadores, alunos e famílias.</p>
+
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

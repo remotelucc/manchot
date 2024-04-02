@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        main article img {
+            width: 65%;
+        }
+        main section img {
+            width: 31.5%;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        img#carro1 {
+            width: 33%;
+        }
+
+        img#carro2 {
+            height: 212px;
+        }
+
+        img#carro3 {
+            margin-top: 25px;
+        }
+    </style>
+    <title>Carros antigos mais famosos</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Os carros antigos mais famosos</h2>
+        <p id="autor">por Lucas Meneghelli</p>
+        <br>
+        <picture>
+            <img src="../imagens/carrosantigos.jpg" alt="Encontro de carros antigos em Teutônia - RS">
+            <legend>Imagem retirada do site do <a href="https://grupoahora.net.br/conteudos/2023/03/17/encontro-de-carros-antigos-ocorre-neste-fim-de-semana/">Grupo A Hora</a></legend>
+        </picture>
+        <hr>
+        <p>Nesse artigo, vamos explorar uma das minhas paixões,  a fascinação por carros antigos  herança transmitida pelos meus pais. A sensibilidade, nostalgia, gratidão, dedicação, investimento e compromisso com o passado e o futuro estão entre os elementos que tornam a posse de um carro antigo uma experiência única</p>
+        <p>Em cada década, encontramos estilos, designs e tecnologias diferentes. Uns mais esportivos, outros mais clássicos e ainda há aqueles que vieram para arrasar os corações de motoristas de todas as idades.
+        O Fusca foi criado no ano de 1930 como o “carro do povo” e se consagrou um dos carros antigos mais conhecidos mundialmente. Ele tornou-se até mesmo astro e protagonista de um filme. Fabricado para ser barato, econômico e confiável, o modelo reunia diversas inovações, como câmbio de 4 marchas e motor refrigerado a ar instalado na traseira.</p>
+        <p>Já a década de 1940 marcou capôs elevados e afilados na frente, com uma enorme grade vertical dominada pelo cromado. Faróis redondos e para-lamas bem salientes. Tais modelos traziam um aspecto mais elegante: VW Beetle, Jeep Willys, Fiat Topolino, Land Rover, Tucker Torpedo e Citroen 2CV, que são exemplos de modelos dessa época.</p>
+        <p>E, para finalizar a nossa seleção de carros do passado que marcaram época, não podíamos deixar de falar de clássicos como o Chevrolet Opala, o Ford Maverick, o Corcel, o Chevette, a Volkswagen Brasília e o inesquecível Fiat 147. Esse último citado foi o primeiro carro produzido pela Fiat no Brasil. Ainda podemos citar os modelos Fiat Panorama, Chevrolet Monza, Fiat Uno e Passat.</p>
+        <p>Diversos foram os carros famosos que se tornaram ícones na história da indústria automobilística e paixão dos amantes de carros antigos. Nossa lista trouxe apenas alguns modelos que inovaram em sua época e criaram tendências que são seguidas até hoje. Gostou do artigo? Então compartilhe-o com os seus amigos colecionadores e apaixonados por carros antigos!</p>
+        <p>Abaixo, imagens de alguns dos carros citados no texto:</p>
+        <section>
+            <img src="../imagens/carro1.jpg" id="carro1"><img src="../imagens/carro3.jpg" id="carro3"><img src="../imagens/carro2.jpg" id="carro2">
+        </section>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
