@@ -16,17 +16,18 @@ main article {
     margin: auto;
 }
 
-picture {
+article > picture {
     margin: auto;
     text-align: center;
 }
 
-picture img {
+article > picture > img {
     display: block;
     margin: auto;
+    max-width: 65%;
 }
 
-picture legend {
+article > picture > legend {
     font-size: 0.8em;
 }
 

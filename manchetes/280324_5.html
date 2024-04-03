@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        li {
+            margin-left: 35px;
+            font-weight: bold;
+        }
+    </style>
+    <title>Superação no esporte</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Do sonho à superação</h2>
+        <p id="autor">por Gabriel Moselli</p>
+        <br>
+        <picture>
+            <img src="../imagens/superacaofut.jpg" alt="Histórias de superação no futebol">
+            <legend>Imagem retirada de <a href="https://youtu.be/iwOrvOLZbG0?si=O5cCCZ0al4gYAMfG">vídeo</a> do canal <a href="https://www.youtube.com/@EuroFute">EuroFut</a> no Youtube</legend>
+        </picture>
+        <hr>  
+        <p>Gols espetaculares e dribles magníficos. O Brasil é conhecido como o país do futebol, devido à popularidade do esporte entre os brasileiros. Ser um jogador profissional é o sonho para muitas crianças. No entanto, realizar esse sonho não é uma tarefa fácil, é preciso talento, vontade, disciplina e superação. Hoje, vamos conhecer histórias inspiradoras que desafiaram a sorte, venceram adversidades e brilharam nos maiores estádios do mundo.</p>
+        <ul><li>Thiago Silva:</li>
+        <p>O zagueiro da seleção brasileira Thiago Silva, iniciou sua carreira em 2003 jogando como volante no Pedra Branca do Rio Grande do Sul. Em 2004, foi vendido ao Juventude, time do mesmo estado, onde começou a jogador de zagueiro. Após se destacar, o jogador assinou um contrato com o Porto, de Portugal, e depois foi emprestado ao Dínamo de Moscou. Na Rússia, foi afetado por uma tuberculose, onde o jogador correu o risco de perder parte do pulmão logo no começo da carreira. Tempo depois, o clube russo anunciou a contratação técnico Ivo Wortmann, que chamou um profissional de Portugal para cuidar do zagueiro. Após se recuperar, foi vendido ao Fluminense, onde se tornou ídolo e vendido ao Milan. Na equipe italiana, se tornou um dos maiores zagueiros da história. </p>
+        <li>Ribéry:</li>
+        <p>O francês Franck Ribéry, teve que superar um trauma de infância, para seguir com sua carreira no futebol. Com apenas dois anos, ele sofreu um acidente de carro no qual foi arremessado para fora do veículo. Ribéry sobreviveu, mas ficou com cicatrizes que faziam com que sofresse bullying dos colegas de sua idade. Isso fez com que Ribéry desenvolve-se uma personalidade forte, para se tornar o futebolista que é hoje.</p>
+        <li>Carlos Tévez:</li>
+        <p>Morando no pobre bairro de Fuerte Apache, com apenas 10 meses de vida, foi atingido por uma panela de água fervente que caiu em seu pescoço, provocando cicatrizes visíveis até hoje. Quando ele tinha cinco anos, seu pai foi assassinado, o que fez com que a mãe de Carlitos o abandonasse, já que não tinha condições de criá-lo sozinho. Tevez, superou essas dificuldades e se tornou uma estrela do futebol, com passagens principalmente no Boca Juniors, da Argentina e no Corinthians.</p>
+        </ul>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
