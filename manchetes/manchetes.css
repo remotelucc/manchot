@@ -66,3 +66,12 @@ p#autor {
 picture legend a {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 990px) {
+    article picture img {
+        max-width: 95%;
+    }
+    main article p {
+        font-size: 0.95rem;
+    }
+}

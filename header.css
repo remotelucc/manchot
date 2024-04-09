@@ -114,8 +114,7 @@ header > nav > a {
     margin-right: -4px;
     height: fit-content;
     color: var(--cor-fundo-importante);
-    border-right: solid 1.5px var(--cor-fundo-importante);
-    border-left: solid 1.5px var(--cor-fundo-importante);
+    border: solid 0.5px var(--cor-fundo-importante);
     padding-right: 8px;
     padding-left: 8px;
     text-decoration: none;

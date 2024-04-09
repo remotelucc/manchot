@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>Arte nos sabores</title>
+    <style>
+        main section img {
+            width: 31.5%;
+            margin: 2.5px;
+            display: inline-block;
+        }
+        img#ultima {
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Arte nos sabores</h2>
+        <p id="autor">por Letícia Ivers</p>
+        <br>
+        <picture>
+            <img src="../imagens/artenossabores.jpg" alt="Foto das equipes com a coordenadora e diretora">
+        </picture>
+        <hr>
+        <p>No mês de março, tivemos uma manhã cheio de aromas. Sob a supervisão da professora Luciene Cezario, o projeto “Master Chefe”, do Itinerário de Linguagem, visava não só a apresentação das receitas, mas toda a arte/conceito envolvidos na criação de um café da manhã saudável. Antes do dia D, em sala de aula, as equipes discutiam a receita, o valor nutricional e energético de cada ingrediente, bem como o custo.</p>
+        <p>Além dos quatro pilares da educação (Aprender a ser, a conhecer, conviver e fazer) os alunos conseguiram um misto de sentimentos entre sabor e alegria. O planejamento, a organização, a resiliência, manter a concentração mesmo sob pressão e manter a agilidade em questão do tempo foram essenciais para a realização deste projeto.</p>
+        <p>Agradecemos a colaboração da nutricionista Camila Baptistela e a banca de juri composta pela direção do colégio.</p>
+    </article>
+    <hr>
+    <section>
+        <p>Fique abaixo com uma pequena galeria de fotos e vídeos deste dia tão especial:</p>
+        <img src="../imagens/masterchef/prof.jpg"><img src="../imagens/masterchef/alunossentados.jpg"><img src="../imagens/masterchef/grupoconcentrado2.jpg">
+        <img src="../imagens/masterchef/grupo1.jpg"><img src="../imagens/masterchef/grupo2.jpg"><img src="../imagens/masterchef/grupo3.jpg">
+        <img src="../imagens/masterchef/grupo4.jpg"><img src="../imagens/masterchef/rosicomida.jpg"><img src="../imagens/masterchef/aracianacomida.jpg">
+                                          <img src="../imagens/masterchef/todomundo.jpg" id="ultima">
+    </section>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
