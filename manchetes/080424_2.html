@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        picture#ziraldo {
+            display: block;
+            margin: 25px auto;
+            width: 90%;
+        }
+    </style>
+    <title>Ziraldo, descanse em paz</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Ziraldo, o múltiplo cultural</h2>
+        <p id="autor">por Luís Antônio Cezario Hernandes</p>
+        <br>
+        <picture>
+            <img src="../imagens/ziraldo.jpg" alt="Ziraldo, o criador de Menino Maluquinho">
+            <legend>Imagem retirada do site do <a href="https://g1.globo.com/pop-arte/noticia/2024/04/06/menino-maluquinho-livro-mais-famoso-de-ziraldo-traca-infancia-ideal-e-teve-versoes-em-serie-filmes-e-opera.ghtml" target="_blank">G1</a></legend>
+        </picture>
+        <hr>
+        <p> O renomado escritor e cartunista Ziraldo, faleceu no último sábado, 6 de abril, em seu apartamento na zona sul do Rio de Janeiro. Nascido em Caratinga, Minas Gerais, em 1932, Ziraldo deixou um importante legado artístico e cultural para o Brasil. Ao longo de mais de seis décadas de carreira, ele se destacou como cartunista, escritor, pintor, dramaturgo, cronista, apresentador e humorista. Seu nome é uma combinação dos nomes de seus pais, Zizinha e Geraldo. Ziraldo é conhecido por suas contribuições à literatura infantil, com obras como "Flicts" e "O Menino Maluquinho", este último um fenômeno editorial com mais de 2 milhões de exemplares vendidos. Além disso, outros 13 personagens foram criados por Ziraldo. </p>
+        <picture id="ziraldo">
+            <img src="../imagens/ziraldodesenhos.png" alt="Ziraldo com seus personagens famosos">
+            <legend>Imagem retirada da <a href="https://twitter.com/radiobandnewsfm/status/657880852207153153" target="_blank">postagem da Rádio Band News, no X</a></legend>
+        </picture>
+        <p>Ziraldo também foi um dos fundadores e colaboradores do icônico jornal "O Pasquim". Também se envolveu ativamente na política, apoiando candidatos e sendo um defensor da abertura política no Brasil. Seu legado inclui não apenas obras literárias, mas também sua participação em movimentos culturais e políticos que marcaram época. </p>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

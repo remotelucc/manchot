@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td {
+            border: 2px solid yellow;
+            text-align: center;
+            padding: 5px;
+        }
+
+        th {
+            padding: 5px;
+            background-color: yellow;
+            border: 1px solid lightyellow;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: yellow;
+        }
+
+        td.num {
+            text-align: center;
+            padding-right: 10px;
+        }
+
+        caption {
+            border: 2px solid yellow;
+            border-radius: 10px 10px 0px 0px;
+            padding: 10px;
+        }
+
+        caption:hover {
+            background-color: yellow;
+            font-weight: bold;
+            transition-duration: 1s;
+        }
+
+        img.eng {
+            max-width: 43%;
+            margin: 10px;
+        }
+    </style>
+    <title>Engenharia: a difícil escolha</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Engenharia: a difícil escolha</h2>
+        <p id="autor">por José Guilherme David Pinheiro</p>
+        <hr>
+        <p>Optar por uma carreira não é uma decisão simples, especialmente quando se considera cursar engenharia, com pelo menos 34 modalidades de curso superior disponíveis. Portanto, é natural ter dúvidas. Para ajudar, deixo aqui algumas informações importantes. </p>
+        <h3>Engenharias fundamentais</h3>
+        <p>Dentro do ramo das engenharias, logo deve vir em nossa mente as engenharias principais/fundamentais que existem em cenário mundial, sendo algumas delas: Engenharia Civil, Engenharia Mecânica, Engenharia de produção e Engenharia elétrica, que serão explicadas em primeiro plano, apontando suas características, ramos de atuação, principais faculdades e a diferenciação entre elas.</p>
+        <h3>Engenharia Civil x Engenharia de Produção</h3>
+        <p>A engenharia civil é o ramo da engenharia que planeja, projeta, executa e faz a gestão de obras de infraestrutura e empreendimentos. A engenharia civil transforma e adapta a natureza, com o objetivo de otimizar a qualidade de vida das pessoas. Desta forma, esta área dedica-se à construção de edifícios, pontes, túneis, usinas geradoras de energia, indústrias e inúmeros outros tipos de estrutura, utilizando como ferramentas as ciências, a matemática, instrumentos, tecnologias e técnicas diversas, experiências anteriores, o cabedal normativo e as práticas locais, levando em conta os contextos social, econômico e ambiental.</p>
+        <br>
+        <table>
+            <caption>Principais faculdades de Engenharia Civil</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Instituição</th>
+                    <th scope="col">Pública/privada</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="num">1°</td>
+                    <td>USP</td>
+                    <td>Pública</td>
+                </tr>
+                <tr>
+                    <td class="num">2°</td>
+                    <td>UNICAMP</td>
+                    <td>Pública</td>
+                </tr>
+                <tr>
+                    <td class="num">3°</td>
+                    <td>UFRJ</td>
+                    <td>Pública</td>
+                </tr>
+                <tr>
+                    <td class="num">4°</td>
+                    <td>UFMG</td>
+                    <td>Pública</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <p>A nota de corte de Engenharia Civil pelo SISU média em São-Carlos-SP é 748,32 pontos, já a menor nota foi de 726,75 pontos para a Universidade de São Paulo</p>
+        <hr>
+        <p>De acordo com a Associação Brasileira de Engenharia de Produção compete à engenharia de produção o projeto, a implantação, a operação, a melhoria e a manutenção de sistemas produtivos integrados de bens e serviços, envolvendo homens, materiais, tecnologia, informação e energia. Compete ainda especificar, prever e avaliar os resultados obtidos destes sistemas para a sociedade e o meio ambiente, recorrendo a conhecimentos especializados da matemática, física, ciências humanas e sociais, conjuntamente com os princípios e métodos de análise e projeto da engenharia.</p>
+        <br>
+        <table>
+            <caption>Principais faculdades de Engenharia de Produção</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Instituição</th>
+                    <th scope="col">UF</th>
+                    <th scope="col">Pública/privada</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>USP</td>
+                    <td>SP</td>
+                    <td>Pública</td>
+                </tr>
+                <tr>
+                    <td>UFSC</td>
+                    <td>SC</td>
+                    <td>Pública</td>
+                </tr>
+                <tr>
+                    <td>UNICAMP</td>
+                    <td>SP</td>
+                    <td>Pública</td>
+                </tr>
+                <tr>
+                    <td>UFRGS</td>
+                    <td>RS</td>
+                    <td>Pública</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <p>O curso de Engenharia De Produção apresenta nota de corte no Sisu de 664,106 pontos para ingresso no programa. A pontuação indicada é a nota média para o curso desejado.</p>
+        <hr>
+        <h3>Diferenciação entre elas</h3>
+        <p>Como foi possível perceber, as duas profissões são muito importantes. Ambos os profissionais devem saber dialogar com diversos públicos. Uma diferença é que a faculdade de Engenharia Civil é voltada para a área de Ciências Exatas e a de Produção conta com matérias de humanas em sua grade curricular.</p>
+        <img class="eng" src="../imagens/eng1.jpg"><img class="eng" src="../imagens/eng2.jpg">
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

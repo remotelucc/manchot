@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        main article picture img {
+            max-width: 40%;
+        }
+        @media screen and (max-width: 990px) {
+            main article picture img {
+            max-width: 75%;
+        }
+        }
+    </style>
+    <title>Memórias de Martha</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Resenha do livro "Memórias de Martha"</h2>
+        <p id="autor">por Emilly Gabrielly Dias Bandeira</p>
+        <br>
+        <picture>
+            <img src="../imagens/memoriasdemartha.jpg" alt="Capa do livro Memórias de Martha">
+            <legend>Imagem retirada do site da <a href="https://livraria.deliriumeditora.com.br/memorias-de-marta">editora Delirium</a></legend>
+        </picture>
+        <hr>
+        <p>Escrita originalmente em folhetim, em 1888, por Júlia Lopes de Almeida, "Memórias de Martha" é um romance autobiográfico ficcional que faz parte da nova lista de leituras obrigatórias para ingresso na USP a partir de 2026. No livro, o leitor acompanha as lembranças de uma mulher adulta, passando por sensíveis relatos da sua infância, juventude e de sua relação com a mãe. </p>
+        <p>A obra se inicia com a morte de seu pai que desencadeou a perda de seus bens e a mudança para um cortiço no Rio de Janeiro, onde recomeçam uma vida totalmente diferente, pois são obrigadas a abandonar a casa que viviam.  O cortiço é representado como um cenário de degradação e miséria, sujo e triste de se viver pela visão da pequena Martha, mas é lá que sua mãe começa a trabalhar como lavadeira e engomadeira, profissão comum entre as mulheres das classes populares, que buscavam o sustento da casa. Naquele lugar repulsivo, descobriu na escola o desejo de ser como sua professora dona Aninha, seu esforço a levou a ser escolhida como discípula e protegida, o que foi primordial para o futuro da nossa narradora.  Com a ajuda dela, Martha começa a trabalhar como adjunta e com o tempo, motivada pela grande vergonha e pelo desejo de sair de onde morava, o dinheiro que ganhava passa a contribuir para alugar uma casa pequena fora do cortiço.</p>
+        <p>Já na casa nova, apesar da simplicidade, Marta está finalmente feliz, porém começa a sentir-se mal, humor em desalinho e muitas dores de cabeça, tonteiras. A mãe preocupada deixa a filha passar as férias com sua professora e com isso, acaba se apaixonando por Luis, o sobrinho de D'Aninha… Mas o restante da obra, sem spoiller,  fica por conta da sua leitura, caros leitores. </p>    
+        <p>Minha visão sobre o livro é bastante positiva. Ele consegue retratar de forma realista o contexto histórico em que se passa, mostrando como era a vida naquela época. A representação das mulheres na obra é especialmente interessante, evidenciando seus desafios e lutas na sociedade daquele tempo. Além disso, a história consegue mexer com as emoções do leitor, fazendo com que torçamos pelo casal principal e nos envolvamos com o romance.</p>
+        <p>Em síntese, "Memórias de Martha" não apenas nos transporta para o Rio de Janeiro do século XIX, mas também nos envolve em uma jornada emocionante através das experiências de Martha. Ao encerrar a leitura, somos deixados com uma profunda apreciação pela riqueza histórica e emocional da obra de Júlia Lopes de Almeida. Mais do que isso, "Memórias de Martha" ressoa conosco como um lembrete da resiliência do espírito humano e da capacidade de superar desafios. E assim finalizando a leitura, somos lembrados da importância de honrar o passado enquanto seguimos em frente, carregando conosco as lições e as percepções valiosas que ele nos oferece.</p>
+
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
