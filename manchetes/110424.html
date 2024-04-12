@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        div#galeria img {
+            width: 31.5%;
+            margin: 2.5px;
+            display: inline-block;
+        }
+
+        img#ultima {
+            display: block;
+            margin: -3% auto;
+            width: 45%;
+        }
+    </style>
+    <title>Construção de pipas</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Construção de pipas</h2>
+        <p id="autor">por Luciene Cezario Hernandes</p>
+        <br>
+        <picture>
+            <img src="../imagens/pipascapa.jpeg" alt="Alunos produzindo pipas">
+        </picture>
+        <hr>
+        <p>Segundo o professor Flávio, a elaboração de pipas, realizada recentemente com alunos do 9° ano, promove o desenvolvimento de conceitos matemáticos e incentiva a colaboração entre os alunos. Nosso objetivo é explorar de forma lúdica e interativa esses conceitos, estimulando o raciocínio lógico através da construção de pipas. Durante a oficina, os alunos aprenderam a confeccionar pipas, conheceram sua história e origens, e também usaram  os conceitos matemáticos essenciais para essa atividade. Foram levantados  questionamentos que os levaram a formalizar conceitos geométricos e a refletir sobre a relevância da Matemática na confecção de pipas.</p>
+        <hr>
+        <div id="galeria">
+            <img src="../imagens/pipas1.jpeg"><img src="../imagens/pipas2.jpeg"><img src="../imagens/pipas3.jpeg">
+            <br>
+            <img src="../imagens/pipas4.jpeg"><img src="../imagens/pipas5.jpeg"><img src="../imagens/pipas6.jpeg">
+            <br>
+            <img src="../imagens/pipas7.jpeg"><img src="../imagens/pipas8.jpeg"><img src="../imagens/pipas9.jpeg">
+        </div>
+        <br>
+            <img id="ultima" src="../imagens/pipas10.jpeg">
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
