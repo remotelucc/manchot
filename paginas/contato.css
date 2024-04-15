@@ -36,6 +36,28 @@ main img#elenco {
     margin: -2% auto;
 }
 
+main table {
+    border-bottom: solid 2px rgba(0, 0, 0, 0.464);
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+main table td li {
+    margin-left: 30px;
+}
+
+p.luciene {
+    text-align: center;
+    margin: auto;
+    text-indent: 5px;
+    font-size: 1.2rem;
+}
+
+p.luciene strong {
+    color: var(--cor-destaque);
+}
+
 span#instagram a {
     color: #9d3445;
 }
@@ -76,4 +98,18 @@ span.icons img {
 
 span.icons:hover img {
     display: inline-block;
+}
+
+@media screen and (max-width: 990px) {
+    main img#elenco {
+        max-width: 98%;
+    }
+
+    li {
+        font-size: 0.8rem;
+    }
+
+    p.luciene {
+        font-size: 0.98rem;
+    }
 }
