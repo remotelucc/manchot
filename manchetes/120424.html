@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        div#galeria img {
+            width: 47%;
+            margin: 2.5px;
+            display: inline-block;
+        }
+        div#galeria > section > img {
+            width: 31.5%;
+        }
+        img#ultima {
+            display: block;
+            margin: auto;
+            margin-top: -3%;
+            width: 47%;
+        }
+    </style>
+    <title>Exposição sobre expressionismo</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Exposição sobre o expressionismo</h2>
+        <p id="autor">Selma da Vinha</p>
+        <br>
+        <picture>
+            <img src="../imagens/expressionismo-capa.jpeg" alt="Professora Selma ao lado da exposição">
+        </picture>
+        <hr>
+        <div id="galeria">
+            <section><img src="../imagens/expressionismo-vertical1.jpeg"><img src="../imagens/expressionismo-vertical2.jpeg"><img src="../imagens/expressionismo-vertical3.jpeg"></section>
+            <br>
+            <img src="../imagens/expressionismo1.jpeg"><img src="../imagens/expressionismo2.jpeg">
+        </div>
+        <br>
+        <img id="ultima" src="../imagens/expressionismo3.jpeg">
+        <hr>
+        <p>Exposição sobre o Expressionismo, dos alunos dos 9⁰ anos, sob orientação da Professora Selma da Vinha. Foram desafiados a retratar os horrores da sociedade contemporânea. Parabéns para todas as pessoas que participaram para que este resultado acontecesse de maneira brilhante.</p>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
