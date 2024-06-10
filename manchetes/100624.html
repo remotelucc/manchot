@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>O Dia dos Namorados</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>O Dia dos Namorados</h2>
+        <p id="autor">por Julia Bento Baptistela Alves</p>
+        <br>
+        <picture>
+            <img src="../imagens/diadosnamorados.jpg" alt="Coração se completando">
+        </picture>
+        <hr>
+        <h3>A História do Dia dos Namorados</h3>
+        <p>O Dia dos Namorados é uma data especial, marcada no calendário brasileiro para o dia 12 de Junho. A origem do Dia dos Namorados no Brasil difere daquela do Valentine's Day celebrado em 14 de fevereiro em muitos países. A escolha do dia 12 de junho não é coincidência: a data antecede o Dia de Santo Antônio, conhecido como o "santo casamenteiro". Foi em 1949 que a data foi oficialmente instituída por João Doria, publicitário que buscava aumentar as vendas no mês de junho, tradicionalmente fraco para o comércio. Desde então, o Dia dos Namorados se tornou uma das datas mais importantes para o varejo, rivalizando com o Natal em termos de vendas.</p>
+        <br>
+        <h3>O Amor em Tempos Modernos</h3>
+        <p>Enquanto os casais continuam a trocar presentes, flores e chocolates, novas formas de celebrar também ganharam espaço. Com a ascensão das redes sociais, declarações públicas de amor se tornaram comuns, assim como a personalização dos presentes, que agora podem incluir desde uma playlist feita com carinho até uma experiência inesquecível, como uma viagem surpresa ou um jantar especial em casa.</p>
+        <br>
+        <h3>O Comércio e a Economia</h3>
+        <p>Para o comércio, o Dia dos Namorados é uma oportunidade de ouro. Lojas de roupas, perfumes, joias, restaurantes e até serviços de assinatura de streaming e delivery veem um aumento significativo nas vendas. Promoções e campanhas publicitárias são planejadas com meses de antecedência, tudo para atrair consumidores ávidos por demonstrar seu afeto de maneira especial.</p>
+        <br>
+        <h3>O principal do amor</h3> 
+        <p>O Dia dos Namorados é, acima de tudo, uma celebração do amor. Em tempos de incerteza e mudanças rápidas, esse sentimento se torna ainda mais precioso. Que possamos, a cada 12 de junho, lembrar da importância de expressar e celebrar o amor em todas as suas formas, não apenas com presentes materiais, mas também com gestos sinceros e afetuosos.</p>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

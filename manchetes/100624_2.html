@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>O primeiro filme brasileiro</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>O primeiro filme brasileiro</h2>
+        <p id="autor">por Gabriel Moselli</p>
+        <br>
+        <picture>
+            <img src="../imagens/filme-brasileiro.jpg" alt="Imagem da "Chegada do trem em Petrópolis">
+            <legend>Imagem retirada do <a href="https://mundodecinema.com/filme-brasileiro/">Mundo de Cinema</a></legend>
+        </picture>
+        <hr>
+        <p>O cinema surgiu em 1895, quando Auguste e Louis, os irmãos Lumière, projetaram um curta-metragem com 45 segundos de duração em um café em Paris, “Sortie de L'usine Lumière à Lyon”, que mostrava funcionários saindo da fábrica da família Lumière em Lyon, França.</p>
+        <p>No Brasil, "Vista da Baía da Guanabara" foi considerado por muitos historiadores como o primeiro trabalho cinematográfico genuinamente brasileiro. A obra teria sido gravada pelo cinegrafista italiano Alfonso Segreto, em 19 de junho de 1898, ao chegar da Europa a bordo do navio Brèsil. Embora o curta-metragem jamais chegou a ser exibido;  ainda assim, 19 de junho é considerado o Dia do Cinema Brasileiro.</p>
+        <p>Devido a isso, alguns pesquisadores questionam se o filme realmente existiu, já que nenhuma cópia ou registro do filme sobreviveu. Por isso,  muitos especialistas consideram que o filme "Chegada do Trem em Petrópolis", gravado em 1897 por Vittorio Di Maio, é o primeiro filme gravado no Brasil. Esse curta-metragem foca na chegada de um comboio a uma estação do município de Petropólis, no Rio de Janeiro. </p>
+        <p>Ao longo dos anos, a autenticação do filme foi discutida várias vezes, pois muitos especialistas acreditavam que se tratava de uma filmagem estrangeira que fingia ser a estação de Petropólis para atrair o público brasileiro. Todavia, após estudos comparativos de iconografia brasileira e estrangeira foram esclarecidas todas as dúvidas, confirmando assim a "Chegada do Trem, em Petrópolis" como o primeiro filme brasileiro.</p>
+    </article>
+</main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
