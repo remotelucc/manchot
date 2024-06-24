@@ -146,3 +146,22 @@ div#video {
     position: relative;
     border-radius: 10px;
 }
+
+footer {
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-texto-importante);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor-destaque);
+    transition-duration: 0.5s;
+}

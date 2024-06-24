@@ -88,25 +88,6 @@ h4 {
     font-size: 0.9rem;
 }
 
-footer {
-    margin: 10px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 0.7rem;
-}
-
-footer a {
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--cor-texto-importante);
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color: var(--cor-destaque);
-    transition-duration: 0.5s;
-}
-
 @media screen and (max-width: 990px) {
     main {
         margin: 0px;
