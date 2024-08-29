@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <style>
+        main article h3 {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    </style>
+    <title>Curiosidade sobre aviação</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Curiosidade sobre aviação</h2>
+        <p id="autor">Letícia Ivers Gachet</p>
+        <br>
+        <picture>
+            <img src="../imagens/curiosidadeaviao.jpg" alt="Avião passando em frente ao pôr do sol">
+            <legend>Imagem retirada do site <a href="https://olhardigital.com.br/2024/08/19/carros-e-tecnologia/em-caso-de-emergencia-no-oceano-pilotos-de-aviao-tem-plano-b-simples/">Olhar Digital</a></legend>
+        </picture>
+        <hr>
+        <h3>Você sabia que em caso de emergência no oceano, pilotos de avião têm "plano B" simples?</h3>
+        <br>
+        <p>Durante voos transcontinentais, é comum que aviões sobrevoem vastas extensões de oceano por horas. Para muitos passageiros, a ideia de uma emergência no meio do oceano pode ser assustadora. No entanto, os pilotos têm um “plano B” simples e eficaz para lidar com essas situações.</p>
+        <p>Em primeiro plano, quando um avião enfrenta uma emergência enquanto sobrevoa o oceano, a solução é desviar para o aeroporto mais próximo. Surpreendentemente, esses aeroportos estão mais perto do que se imagina. Em rotas sobre o Atlântico, por exemplo, a aeronave está sempre a cerca de duas horas de um aeroporto. Em outras rotas oceânicas, esse tempo pode aumentar para três horas.</p>
+        <p>Outrossim, os voos internacionais que partem do Brasil, como os que saem de Fortaleza (CE), têm como aeroporto alternativo a Ilha do Sal, em Cabo Verde, que fica a duas a quatro horas de distância. Após esse ponto, o próximo aeroporto está ainda mais próximo, seja na Europa ou na África.</p>
+        <p>Existem procedimentos específicos para diferentes tipos de emergências. Se um dos motores da aeronave parar de funcionar, por exemplo, o avião ainda pode voar com apenas um motor por várias horas, dependendo do modelo e da companhia aérea. O Boeing 777-300ER, por exemplo, já voou por cinco horas e meia com apenas um motor durante um voo de Seattle (EUA) a Taipei (Taiwan). Em casos de emergências médicas, como um infarto ou AVC, os comissários de bordo são treinados para prestar os primeiros socorros enquanto o piloto desvia para o aeroporto mais próximo.</p>
+        <p>Portanto, embora a ideia de uma emergência no meio do oceano possa ser preocupante, os pilotos estão bem preparados com um “plano B” simples e eficaz. Seja desviando para um aeroporto próximo ou lidando com problemas técnicos e médicos a bordo, a segurança dos passageiros é sempre a prioridade.</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

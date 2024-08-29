@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>Os mil tsurus</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Os mil tsurus</h2>
+        <p id="autor">Júlia Bento Baptistela Alves</p>
+        <br>
+        <picture>
+            <img src="../imagens/miltsurus.jpeg" alt="Estátua de bronze em tamanho real de Sadako Sasaki">
+            <legend>Imagem retirada do site <a href="https://toshioshimada.com/2020/09/08/tsuru-つる/">Toshio Shimada</a></legend>
+        </picture>
+        <hr>
+        <p>Em um gesto de profunda sensibilidade e respeito, uma jovem estudante brasileira de 12 anos fez história ao completar a dobradura de mil tsurus de papel, em homenagem às crianças vítimas de conflitos e tragédias ao redor do mundo. Inspirada pela história de Sadako Sasaki, a menina que sobreviveu à bomba atômica de Hiroshima e tentou fazer mil tsurus na esperança de curar-se da leucemia, a jovem brasileira decidiu dedicar sua própria série de origamis às crianças que nunca tiveram a chance de crescer.</p>
+        <p>O projeto começou quando a garota, cujo nome não foi divulgado a pedido da família, leu sobre a trágica história de Sadako e seu sonho de paz. Profundamente tocada, ela se comprometeu a aprender a arte do origami e, com dedicação, começou a dobrar os papéis coloridos, um por um, enquanto refletia sobre as vidas perdidas e o impacto dos conflitos em crianças inocentes. Ao longo do processo, a jovem recebeu o apoio de colegas de escola, familiares e até de estranhos que souberam de sua iniciativa. </p>
+        <p>O milésimo tsuru foi completado em uma cerimônia simples, mas significativa, na escola. As aves de papel, delicadamente alinhadas em cordões, foram expostas em um mural que simbolizava a esperança de um futuro melhor e mais pacífico. O projeto da menina chamou a atenção da mídia nacional e internacional, e ela foi convidada a compartilhar sua história em diversos programas de televisão e eventos escolares. Seu gesto simples, mas poderoso, ressoou com muitas pessoas ao redor do mundo, trazendo à tona a importância de preservar a memória das vítimas e de continuar a trabalhar por um mundo mais pacífico.</p>
+        <p>Tal projeto percorre o mundo, trazendo das mais variadas formas de exposições e cores, envolvendo não só uma homenagem, mas também uma lenda, onde muitos acreditam que se dobrarem mais de 1000 tsurus os deuses realizarão seus mais profundos desejos. Por esse motivo os origamis são feitos com intenções diversas que vão desde a vitória do seu time preferido até a cura para alguma doença.</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

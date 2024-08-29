@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>A Ilustre Casa de Ramires</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>A Ilustre Casa de Ramires</h2>
+        <p id="autor">por Emilly Gabriele Dias Bandeira</p>
+        <br>
+        <picture>
+            <img src="../imagens/casaderamires.jpg" alt="Capa do livro">
+            <legend>Imagem retirada da <a href="https://www.amazon.com.br/Ilustre-Casa-Ramires-Eça-Queirós/dp/8572329560">Amazon</a></legend>
+        </picture>
+        <hr>
+        <p>A Ilustre Casa de Ramires, de Eça de Queirós, é uma obra que estará no vestibular da Fuvest 2025, sendo fundamental para os estudantes. Publicado em 1900, o romance narra a trajetória de Gonçalo Mendes Ramires, um nobre que lida com a decadência de sua família em um Portugal em transformação. O final do século XIX foi um período conturbado, marcado pela crise da monarquia e a iminente Proclamação da República. Eça utiliza a narrativa de Gonçalo para criticar a inação da elite e refletir sobre a identidade nacional.</p>
+        <p>A história se inicia com Gonçalo sonhando em restaurar a honra de sua família, outrora respeitada. Para isso, ele decide escrever um romance histórico, A Torre de D. Ramires, acreditando que o sucesso da obra poderá ajudá-lo a recuperar o prestígio perdido. Durante sua jornada, enfrenta diversos desafios, como a falta de apoio familiar e a indiferença da sociedade em relação às suas aspirações. Gonçalo também se envolve em um amor não correspondido por Gracinha, uma mulher que simboliza tanto a beleza quanto a frustração de seus anseios. A relação entre eles é marcada por mal-entendidos, refletindo a dificuldade de Gonçalo em aceitar a realidade.</p>
+        <p>À medida que a trama se desenrola, ele se torna cada vez mais ciente da hipocrisia e da corrupção que permeiam a sociedade portuguesa da época. Para se preparar para o vestibular, é crucial ler a obra atentamente, compreendendo os personagens e as críticas que Eça insere na narrativa. Conhecer o contexto histórico é essencial, assim como estar preparado para comparar com outras leituras obrigatórias. Analisar os temas e personagens também pode aprimorar as respostas nas provas. Estudar A Ilustre Casa de Ramires oferece uma excelente oportunidade para entender um período significativo da história e da literatura. Boa sorte a todos os candidatos!</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
