@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>Franz Kafka: O mestre do absurdo</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Franz Kafka: O mestre do absurdo</h2>
+        <p id="autor">por Enzo Machado Campos</p>
+        <br>
+        <picture>
+            <img src="../imagens/franzkafka.jpeg" alt="Foto de Franz Kafka">
+        </picture>
+        <hr>
+        <p>Franz Kafka, o escritor tcheco de língua alemã, nasceu em 3 de julho de 1883 em Praga, então parte do Império Austro-Húngaro. Considerado um dos autores mais influentes do século XX, Kafka deixou sua marca com obras-primas como "A Metamorfose", "O Castelo" e "O Processo". Filho de um próspero comerciante judeu, Kafka cresceu sob a sombra de um pai dominador que não apoiava sua paixão pela literatura. Esse conflito com a figura paterna opressora seria refletido em muitas de suas narrativas sombrias e absurdas.</p>
+        <br>
+        <h3>A Metamorfose: Quando acordar é um pesadelo.</h3>
+        <p>"A Metamorfose", publicada em 1915, é provavelmente a obra mais famosa de Kafka. Nela, o protagonista acorda certa manhã transformado em um gigantesco inseto. A história se desenrola com um realismo preciso, quase banal, revelando a atmosfera sufocante da vida burguesa. Kafka usa essa premissa fantástica para explorar temas universais como alienação, brutalidade psicológica e o poder esmagador das instituições sobre o indivíduo. Seus personagens são frequentemente atormentados por missões aterrorizantes em labirintos burocráticos.</p>
+        <hr>
+        <picture>
+            <img src="../imagens/metamorfose.jpeg" alt="Capa de 'Metamorfose'">
+            <legend>Imagem retirada da <a href="https://www.amazon.com.br/metamorfose-Franz-Kafka/dp/8542217187">Amazon</a></legend>
+        </picture>
+        <hr>
+        <h3>O Estilo Kafkiano: Quando o absurdo se torna normal</h3>
+        <p>O estilo literário de Kafka é marcado pelo estranhamento do cotidiano. Ele narra o fantástico de forma direta e protocolar, como se fosse absolutamente normal. Isso cria um desconforto no leitor, que vê o mundo familiar se transformar em algo sinistro e surreal. Sua linguagem clara e objetiva contrasta com os temas complexos e angustiantes. Kafka problematiza a condição humana no mundo moderno, fragmentado e burocrático. Sua literatura traz à tona o absurdo da vida moderna, tratando-o com a mesma seriedade de um registro cartorial.</p>
+        <br>
+        <p>Franz Kafka morreu em 1924, aos 40 anos, deixando uma obra inacabada e enigmática. Mas seu legado como um dos maiores escritores do século XX está garantido. Suas histórias absurdas e perturbadoras continuam a ressoar com leitores de todas as gerações, lembrando-nos da fragilidade da condição humana diante das forças opressoras do mundo.</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
