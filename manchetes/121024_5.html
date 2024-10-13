@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>A magia da música</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>A magia da música</h2>
+        <p id="autor">por Emilly Gabriele Dias Bandeira</p>
+        <br>
+        <hr>
+        <p>Música, linguagem universal do coração, que supera barreiras culturais e linguísticas. Para as crianças, ela é um espaço rico de expressão, onde podem explorar suas emoções e se conectar com o mundo ao seu redor. Desde os primeiros acordes, a música desperta sentimentos e estimula a criatividade, ajudando os pequenos a se conhecerem melhor.</p>
+        <p>Quando as crianças ouvem ou tocam instrumentos, elas têm a oportunidade de expressar alegria, tristeza e até mesmo suas inquietações de uma forma única. Esse processo não apenas enriquece o desenvolvimento emocional, mas também fortalece a autoconfiança e a autoestima. É incrível ver como uma simples melodia pode fazer com que se sintam mais seguras e à vontade para serem quem realmente são.</p>
+        <p>Além disso, estudos mostram que tocar um instrumento ou participar de aulas de música pode trazer benefícios significativos, como melhorar a concentração, a memória e as habilidades sociais. Esses momentos de aprendizado e escuta ativa criam um ambiente acolhedor, onde as crianças se sentem livres para explorar sua identidade e se expressar sem medo.</p>
+        <p>Cada criança tem seu próprio gosto musical e estilo, o que é uma parte fundamental do seu crescimento. Essa conexão com a música permite que elas descubram o que realmente as faz felizes, gerando um senso de pertencimento que é essencial para construir relacionamentos saudáveis com os outros.</p>
+        <p>Incentivar a música na infância é um investimento valioso na formação de indivíduos mais felizes, criativos e saudáveis. É importante que pais, educadores e toda a sociedade reconheçam o poder da música como uma ferramenta essencial para o desenvolvimento integral das crianças. Ao fazermos isso, estamos contribuindo para um mundo mais harmônico e empático, onde cada criança pode brilhar à sua maneira.</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>

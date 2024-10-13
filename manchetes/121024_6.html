@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>Ostracismo nas Paralimpíadas</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Ostracismo nas Paralimpíadas</h2>
+        <p id="autor">por José Guilherme David Pinheiro</p>
+        <br>
+        <hr>
+        <p>Em meio ao brilho das Olimpíadas, as Paralimpíadas frequentemente permanecem nas sombras, enfrentando um ostracismo que se reflete tanto na cobertura midiática quanto no reconhecimento social. Apesar dos avanços na inclusão e na visibilidade dos atletas paralímpicos, muitos ainda sentem que suas conquistas não recebem a devida atenção.</p>
+        <p>Os Jogos Paralímpicos, espetáculo de superação e talento, reúnem atletas com deficiência de todo o mundo. No entanto, os números falam por si: a audiência e a cobertura da mídia em comparação com os Jogos Olímpicos ainda são desproporcionais.</p>
+        <p>Além disso, o investimento em infraestrutura e patrocínios é notavelmente inferior, o que dificulta o desenvolvimento de talentos e a promoção dos atletas. </p>
+        <p>A sociedade precisa reavaliar sua postura em relação às Paralimpíadas. Celebrar as conquistas desses atletas não é apenas uma questão de justiça, mas também uma oportunidade de aprender sobre resiliência e diversidade. Promover a inclusão e a valorização do esporte paralímpico é um passo essencial para quebrar o ciclo do ostracismo e construir um futuro mais igualitário no mundo do esporte.</p>
+        <hr>
+        <br>
+        <picture>
+            <img src="../imagens/paralimpiadas.jpeg">
+            <legend>O nadador Gabriel Araújo conquistou a primeira medalha para o Brasil na Paralimpíada de Paris 2024.</legend>
+        </picture>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
