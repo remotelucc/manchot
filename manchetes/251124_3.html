@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>A Proclamação da República</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>A Proclamção da República</h2>
+        <p id="autor">por Gabriel Moselli</p>
+        <br>
+        <picture>
+            <img src="../imagens/proclamacaorepublica.jpeg">
+        </picture>
+        <hr>
+        <p>A Proclamação da República surgiu após um longo período de crises da monarquia no Brasil. Com o fim da guerra do Paraguai, o regime começou a entrar em decadência, devido às incapacidades em atender as demandas da sociedade.</p>
+        <p>Em 1870, foi lançado o Manifesto Republicano, que criticava a centralização do poder da monarquia e exigia um modelo federalista.</p>
+        <p>A consolidação do exército brasileiro foi outro fator da crise. A exigência pela modernização do país fez com que muitos militares enxergassem na república a solução para o país, uma vez que a monarquia era considerada incapaz para tal demanda.</p>
+        <p>A partir disso, manifestações públicas contra o regime e o imperador começaram a se tornar comuns. Em 1890, o carro do imperador sofreu um atentado, o que levou o império a proibir manifestações a favor da república.</p>
+        <p>Em 10 de novembro, os defensores contra a monarquia se reuniram com Deodoro para convencê-lo a participar. Os boatos de que uma conspiração estava em curso começaram a ganhar força, e informações falsas sobre a monarquia começaram a ser anunciadas em público, com o objetivo de conquistar apoiadores.</p>
+        <p>No dia 15 de novembro, o marechal Deodoro da Fonseca comandou as tropas que depuseram Dom Pedro II. A Proclamação da República aconteceu na Câmara, com grandes celebrações nas ruas do Rio de Janeiro. Apesar disso, o imperador acreditava que a situação seria contornada, mas isso não aconteceu. Um governo provisório foi formado e o marechal Deodoro da Fonseca foi nomeado como presidente do Brasil.</p>
+        <p>No dia seguinte, a coroa portuguesa foi expulsa do Brasil e embarcaram de volta à Portugal. Houve uma série de revoltas e conflitos nesse período, como as Revoltas da Armada e a Guerra de Canudos. Além disso, uma enorme crise econômica atingiu o Brasil.</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
