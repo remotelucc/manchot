@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="manchetes.css">
+    <link rel="stylesheet" href="general.css" media="all">
+    <link rel="stylesheet" href="../header.css">
+    <title>FLIP 2024</title>
+</head>
+<body>
+<header>
+    <h1><a href="../index.html">MANCHOT</a></h1>
+    <h2>Bem-vindo ao jornal oficial da Einstein Limeira</h2>
+    <span id="burguer" class="material-icons-two-tone" onclick="clickMenu()">menu</span>
+    <nav id="menu">
+        <a href="../index.html">Home</a>
+            <a href="../paginas/lista.html">Últimas</a>
+            <a href="../paginas/protagonistas.html">Somos Protagonistas</a>
+            <a href="../paginas/opiniao.html">Opinião</a>
+            <a href="../paginas/ciencias.html">Ciências</a>
+            <a href="../paginas/cultura.html">Cultura</a>
+            <a href="../paginas/esportes.html">Esportes</a>
+            <a href="../paginas/atualidades.html">Atualidades</a>
+            <a href="../paginas/contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>A Festa Literária Internacional de Paraty</h2>
+        <p id="autor">por João Luiz Martins Batalini</p>
+        <br>
+        <picture>
+            <img src="../imagens/flip.jpg" alt="Imagem do FLIP 2024">
+        </picture>
+        <hr>
+        <p>A Festa Literária Internacional de Paraty (FLIP) 2024 promete ser um dos maiores eventos culturais do ano, reunindo escritores, poetas, pensadores e artistas de diversas partes do mundo para celebrar a literatura em sua forma mais vibrante e acessível. A edição deste ano, que aconteceu entre os dias 10 e 14 de julho, traz como tema a diversidade cultural e o poder da palavra como ferramenta de transformação social.</p>
+        <p>A programação conta com uma série de mesas de debates, lançamentos de livros, performances e encontros com autores consagrados e novos talentos. Entre os nomes confirmados estão grandes destaques da literatura contemporânea, como a escritora nigeriana Chimamanda Ngozi Adichie, o poeta brasileiro Adélia Prado e o romancista colombiano Juan Gabriel Vásquez, cujas obras têm sido aclamadas pela crítica mundial.</p>
+        <p>A FLIP 2024 tem como objetivo ampliar o diálogo sobre questões como identidade, representatividade e a importância da literatura na formação de uma sociedade mais justa e plural. Os debates serão enriquecidos por perspectivas de diferentes continentes, com autores que abordam temas como migração, diversidade de gênero, meio ambiente e os desafios do mundo contemporâneo.</p>
+        <p>Um dos destaques da programação será a homenagem ao autor brasileiro João Guimarães Rosa, cuja obra completa 60 anos em 2024. A FLIP irá promover uma série de palestras e leituras para revisitar o universo de "Grande Sertão: Veredas", um dos maiores clássicos da literatura brasileira.</p>
+        <p>A FLIP também se destaca por sua atuação na promoção da inclusão cultural e da democratização do acesso à literatura. Durante o evento, serão realizadas atividades voltadas para crianças e jovens, com workshops, rodas de leitura e apresentações teatrais que visam incentivar a formação de novos leitores e despertar o interesse pela literatura desde cedo.</p>
+        <p>Além disso, a FLIP mantém seu compromisso com a sustentabilidade e a preservação ambiental, adotando práticas ecológicas e promovendo o uso consciente dos recursos naturais durante a realização do evento. A cidade de Paraty, com seu charme colonial, será o cenário perfeito para mais uma edição histórica, onde literatura e cultura se entrelaçam em uma celebração única da imaginação humana.</p>
+    </article>
+</main>
+<footer>Site criado por <a href="https://github.com/remotelucc">Lucca M. Lino</a></footer>
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
